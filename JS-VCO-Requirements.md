@@ -1,12 +1,15 @@
 # JS-VCO-Requirements
 
+[Back](./Readme.md)
+
+## Contents
+
 - [JS-VCO-Requirements](#js-vco-requirements)
+  - [Contents](#contents)
   - [JS-VCO v1](#js-vco-v1)
     - [Wave Shapes](#wave-shapes)
   - [Feature Sett](#feature-sett)
   - [Outputs](#outputs)
-
-
 
 ## JS-VCO v1
 
