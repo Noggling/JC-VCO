@@ -14,7 +14,7 @@ Speck for JS Oscillator v1. The first version should be  a proof of concept. Con
 
 - [Requirements](./JS-VCO-Requirements.md)
 - [JS-VCO Oscillator](./JS-VCO-Oscillator.md)
-- [JS-VCO 1VoltOctave](./JS-VCO-1VoltOctave.md)
+- [JS-VCO OneVoltOctave](./JC-VCO-OneVoltOctave.md)
 
 <!-- ## About -->
 
