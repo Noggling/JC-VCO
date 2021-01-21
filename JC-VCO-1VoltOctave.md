@@ -13,7 +13,7 @@
 
 1 volt per octave circuit current ref2012021.
 
-![ref2012021](/images/1VCO-ref2012021.png)
+![ref2012021](/images/1VOC-ref2012021.png)
 
 ### Materials
 
