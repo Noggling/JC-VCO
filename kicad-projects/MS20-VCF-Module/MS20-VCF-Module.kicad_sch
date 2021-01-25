@@ -1617,7 +1617,7 @@
     (stroke (width 0) (type solid) (color 0 0 0 0))
   )
 
-  (text "Korg MS-20 Clone, with LP/BP/HP switch" (at 267.335 176.53 180)
+  (text "Korg MS-20 VCF Clone, with LP/BP/HP switch" (at 273.05 176.53 180)
     (effects (font (size 2.54 2.54)) (justify right bottom))
   )
 
