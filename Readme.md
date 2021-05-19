@@ -20,3 +20,11 @@ Speck for JS Oscillator v1. The first version should be  a proof of concept. Con
 - PWM Puls With Modulation
   
 ## Outputs
+
+# Ideas
+
+## Waveshaping through "cheats"
+
+Adjustable Half wave rectifier can be used to fold a Saw into a triangle by reflecting the top by inverting the "overflow" input. This can be achieved by adjusting the amplification of the saw output.
+
+
