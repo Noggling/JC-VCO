@@ -5299,7 +5299,7 @@
     (pin "5" (uuid af7a9f26-121b-4c3f-b399-c65fd2cdf34e))
   )
 
-  (symbol (lib_id "Amplifier_Operational:TL074") (at 161.29 43.18 0) (unit 2)
+  (symbol (lib_id "Amplifier_Operational:TL074") (at 161.29 43.18 0) (unit 3)
     (in_bom yes) (on_board yes)
     (uuid 8f0ce76b-f008-42b4-89fc-cf393fcf26b6)
     (property "Reference" "U2" (id 0) (at 163.83 38.2566 0))
@@ -5310,12 +5310,12 @@
     (property "Datasheet" "http://www.ti.com/lit/ds/symlink/tl071.pdf" (id 3) (at 162.56 38.1 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "5" (uuid b1092679-6a98-4cbc-9450-284d7be2b100))
-    (pin "6" (uuid 43f2708c-d2b1-4364-9eae-198001ade57c))
-    (pin "7" (uuid 34e088eb-6b0a-46e2-948b-c1cbf12cb058))
+    (pin "10" (uuid 0a075dc4-173e-4430-9245-c4eadc8cc1e8))
+    (pin "8" (uuid 250f478d-9265-43ab-bd02-220eb5439829))
+    (pin "9" (uuid c4d62019-0d77-41a4-9852-6e0af8bbbb18))
   )
 
-  (symbol (lib_id "Amplifier_Operational:TL074") (at 161.29 73.025 0) (unit 3)
+  (symbol (lib_id "Amplifier_Operational:TL074") (at 161.29 73.025 0) (unit 2)
     (in_bom yes) (on_board yes)
     (uuid f83059ad-fef0-4da8-b6f0-c9df7fbd3a40)
     (property "Reference" "U2" (id 0) (at 164.465 67.7884 0))
@@ -5326,12 +5326,12 @@
     (property "Datasheet" "http://www.ti.com/lit/ds/symlink/tl071.pdf" (id 3) (at 162.56 67.945 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "10" (uuid a1567b3f-10e2-453c-95e4-f5bb430adc5c))
-    (pin "8" (uuid 1de940b9-ecd6-4ece-9bfb-3cda2cbe00ec))
-    (pin "9" (uuid 504cedde-fc87-4fa9-b5c2-4204ec6faf51))
+    (pin "5" (uuid 340c4e7c-92dd-4c95-b798-da914c6236c6))
+    (pin "6" (uuid 377efd2e-2633-4bc7-a7c9-c8d740d6fa35))
+    (pin "7" (uuid 3faea8e6-c61b-4cd9-a777-67472fc99815))
   )
 
-  (symbol (lib_id "Amplifier_Operational:TL074") (at 161.29 117.475 0) (unit 4)
+  (symbol (lib_id "Amplifier_Operational:TL074") (at 161.29 117.475 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 5af32911-d340-491b-b73d-ce472113d571)
     (property "Reference" "U2" (id 0) (at 165.1 112.2384 0))
@@ -5342,12 +5342,12 @@
     (property "Datasheet" "http://www.ti.com/lit/ds/symlink/tl071.pdf" (id 3) (at 162.56 112.395 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "12" (uuid 2b49afc5-f76f-48d5-b402-787e972378a2))
-    (pin "13" (uuid 323025fb-56da-4c0d-935c-329e07de2b7c))
-    (pin "14" (uuid 78dbbc6f-963e-4e70-be0f-0aa89e0fd734))
+    (pin "1" (uuid 04c265b8-7fc5-4573-8152-4481215a594c))
+    (pin "2" (uuid e922a617-562f-4eeb-adfd-555c8a7fd28f))
+    (pin "3" (uuid aab389aa-b48e-4ca0-8ed6-aec9859b5a47))
   )
 
-  (symbol (lib_id "Amplifier_Operational:TL074") (at 254 38.1 0) (mirror y) (unit 1)
+  (symbol (lib_id "Amplifier_Operational:TL074") (at 254 38.1 0) (mirror y) (unit 4)
     (in_bom yes) (on_board yes)
     (uuid a6ded9fe-2ea8-4a24-926e-e1af8a7cae28)
     (property "Reference" "U2" (id 0) (at 256.54 44.2934 0))
@@ -5358,9 +5358,9 @@
     (property "Datasheet" "http://www.ti.com/lit/ds/symlink/tl071.pdf" (id 3) (at 252.73 33.02 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid e9a6b526-511f-4a67-9548-0bdb3a21acf1))
-    (pin "2" (uuid 6285fd91-74f3-4f5b-9d7b-cc9e7b28b5a6))
-    (pin "3" (uuid 60031138-afbf-4271-aff2-d59b1b2f9115))
+    (pin "12" (uuid 78ab846a-490a-47d8-b7f8-33b7f36c280c))
+    (pin "13" (uuid 474fc709-1bc3-4fe9-ae7b-f0848d20d58c))
+    (pin "14" (uuid e05be63d-a109-4b91-b32d-2f0a1f65d001))
   )
 
   (symbol (lib_id "Connector_Generic:Conn_02x05_Odd_Even") (at 208.28 125.73 180) (unit 1)
@@ -5751,16 +5751,16 @@
     (path "/ec32bfb1-66b7-4d24-b587-d8d027651c29"
       (reference "U1") (unit 5) (value "LM13700") (footprint "Package_DIP:DIP-16_W7.62mm")
     )
-    (path "/a6ded9fe-2ea8-4a24-926e-e1af8a7cae28"
+    (path "/5af32911-d340-491b-b73d-ce472113d571"
       (reference "U2") (unit 1) (value "TL074") (footprint "Package_DIP:DIP-14_W7.62mm")
     )
-    (path "/8f0ce76b-f008-42b4-89fc-cf393fcf26b6"
+    (path "/f83059ad-fef0-4da8-b6f0-c9df7fbd3a40"
       (reference "U2") (unit 2) (value "TL074") (footprint "Package_DIP:DIP-14_W7.62mm")
     )
-    (path "/f83059ad-fef0-4da8-b6f0-c9df7fbd3a40"
+    (path "/8f0ce76b-f008-42b4-89fc-cf393fcf26b6"
       (reference "U2") (unit 3) (value "TL074") (footprint "Package_DIP:DIP-14_W7.62mm")
     )
-    (path "/5af32911-d340-491b-b73d-ce472113d571"
+    (path "/a6ded9fe-2ea8-4a24-926e-e1af8a7cae28"
       (reference "U2") (unit 4) (value "TL074") (footprint "Package_DIP:DIP-14_W7.62mm")
     )
     (path "/df69e538-8a76-4fc8-96fd-882097caf1cc"
